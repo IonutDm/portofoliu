@@ -1,0 +1,51 @@
+.container1 {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    font-family: 'Main Font';
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: red;
+}
+.container2 {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    font-family: 'Main Font';
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: blue;
+}
+
+.content {
+    /* display: none; */
+    font-size: medium;
+    border:2px solid black
+
+}
+
+.mainTitle div {
+    color: black;
+    position: relative;
+    justify-content: center;
+    text-shadow: 2px 2px green;
+    text-shadow: -2px -2px white;
+}
+
+.mainTitle ::after {
+    content: "";
+    position:absolute;
+    top: 10px;
+    color: grey;
+    z-index: 10;
+}
+
+.mainTitle ::before {
+    color: blue;
+}

@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="toggleable" (click)="toggleTitleText1()">
+        <div class="mainTitle" *ngIf="!this.showText1">
+            <div>Who am I?</div>
+        </div>
+
+        <div class="content" *ngIf="this.showText1">
+            <div class="whoAmI">
+                <h1>Who am I?</h1>
+                <p>I am a junior front-end developer looking to work on my career in software development.</p>
+                <p>After graduating software development course provided by https://sdacademy.ro/, I can say I'm ready
+                    to
+                    use my
+                    skills, which involve the following technologies:</p>
+                <ul>
+                    <li>html, css, js</li>
+                    <li>boostrap</li>
+                    <li>material</li>
+                    <li>angular</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="toggleable" (click)="toggleTitleText2()">
+        <div class="mainTitle" *ngIf="!this.showText2" >
+            <div>Some of my hobbies</div>
+        </div>
+
+        <div class="content" *ngIf="this.showText2">
+            <div class="myHobbies">
+                <h1>Some of my hobbies</h1>
+                <p>I am a strong believer in the fact that we can get to know people better understanding what they
+                    like, so
+                    heres a short list on my hobbies: </p>
+                <ul>
+                    <li>reading and listening to podcasts, I find that its the best way to improve in general</li>
+                    <li>tech is a subject I love to always keep up with, always looking for new features</li>
+                    <li>music is the best way I find to relax and reset my self</li>
+                    <li>traveling to new places has to be the most enjoyable experience</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="toggleable" (click)="toggleTitleText3()">
+        <div class="mainTitle" *ngIf="!this.showText3">
+            <div>Short bio</div>
+        </div>
+
+        <div class="content" *ngIf="this.showText3">
+            <div class="shortBio" >
+                <h1>Short bio</h1>
+                <p>Hy my name is Dumitriu Ionut and I am 30 years old.</p>
+                <p>I live in Romania in Iasi. I've been living here for the past 10 years.</p>
+                <p>I attended biology coledge but had to stop due to my financial situation and have been working in
+                    sales
+                    last
+                    4 years of which i worked for a large retailer LIDl. </p>
+                <p>My experience with the company was nice as I had room to grow ,but left me thinking I could improve
+                    much
+                    more
+                    than was possible there.</p>
+                <p>My current gowl is to learn and use as much as possible from the curse I attended at
+                    https://sdacademy.ro/
+                    this site being a work in progress I hope you will enjoy.</p>
+            </div>
+        </div>
+    </div>
+</div>

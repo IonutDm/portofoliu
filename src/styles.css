@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Main Font";
+    src: local("Font"), url(./assets/fonts/Hughs.otf) format("truetype");
+}
+
+.image{
+    height:100vh;
+    background-size:cover;
+    width:100vw;
+    background-image:url('../src/assets/images/pic3.jpg');
+    background-position:50% 50%;
+    position:absolute;
+    z-index: -1;
+}
+.image2{
+    height:100vh;
+    background-size:cover;
+    width:100vw;
+    background-image:url('../src/assets/images/pic4.png');
+    background-position:50% 50%;
+    position:absolute;
+    z-index: -1;
+}
+
