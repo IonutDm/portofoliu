@@ -1,0 +1,18 @@
+.content {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    font-family: 'Main Font';
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.whoAmI {
+    text-align: center;
+    width: 760px;
+}

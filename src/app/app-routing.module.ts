@@ -14,7 +14,9 @@ const routes: Routes = [
   {path:'contact-me',component:ContactMeComponent},
   {path:'who-am-i',component:WhoAmIComponent},
   {path:'short-bio',component:BioComponent},
-  {path:'hobbies',component:HobbiesComponent}
+  {path:'hobbies',component:HobbiesComponent},
+  {path:'..',component:HomeComponent}
+
   
 
 ];
