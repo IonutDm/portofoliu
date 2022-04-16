@@ -8,6 +8,10 @@ import { FooterComponent } from './sharepage/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MyWorkComponent } from './pages/my-work/my-work.component';
 import { ContactMeComponent } from './pages/contact-me/contact-me.component';
+import { WhoAmIComponent } from './components/who-am-i/who-am-i.component';
+import { HobbiesComponent } from './components/hobbies/hobbies.component';
+import { BioComponent } from './components/bio/bio.component';
+
 
 
 @NgModule({
@@ -18,6 +22,10 @@ import { ContactMeComponent } from './pages/contact-me/contact-me.component';
     HomeComponent,
     MyWorkComponent,
     ContactMeComponent,
+    WhoAmIComponent,
+    HobbiesComponent,
+    BioComponent,
+
     
   ],
   imports: [

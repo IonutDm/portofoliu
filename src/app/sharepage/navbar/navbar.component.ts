@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+  highLight: boolean;
 
-  constructor() { }
+  constructor() {
+    this.highLight = false;
+  }
 
   ngOnInit(): void {
+  }
+  mouseover():void {
+    
   }
 
 }

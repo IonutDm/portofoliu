@@ -8,6 +8,10 @@
     font-family: "Main Font";
     src: local("Font"), url(./assets/fonts/Hughs.otf) format("truetype");
 }
+@font-face {
+    font-family: "Brand Font";
+    src: local("Font"), url(./assets/fonts/WHOA\ SAUCE\ PERSONAL\ USE.ttf) format("truetype");
+}
 
 .image{
     height:100vh;

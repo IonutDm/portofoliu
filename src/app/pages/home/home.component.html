@@ -1,10 +1,10 @@
 <div class="container">
     <div class="toggleable" (click)="toggleTitleText1()">
-        <div class="mainTitle" *ngIf="!this.showText1">
+        <div class="mainTitle" *ngIf="!this.showText1 || showTitles()" >
             <div>Who am I?</div>
         </div>
 
-        <div class="content" *ngIf="this.showText1">
+        <div class="content" *ngIf="this.showText1" >
             <div class="whoAmI">
                 <h1>Who am I?</h1>
                 <p>I am a junior front-end developer looking to work on my career in software development.</p>
@@ -22,8 +22,8 @@
         </div>
     </div>
 
-    <div class="toggleable" (click)="toggleTitleText2()">
-        <div class="mainTitle" *ngIf="!this.showText2" >
+    <div class="toggleable" (click)="toggleTitleText2()" >
+        <div class="mainTitle" *ngIf="!this.showText2 || showTitles()" >
             <div>Some of my hobbies</div>
         </div>
 
@@ -44,7 +44,7 @@
     </div>
 
     <div class="toggleable" (click)="toggleTitleText3()">
-        <div class="mainTitle" *ngIf="!this.showText3">
+        <div class="mainTitle" *ngIf="!this.showText3 || showTitles()" >
             <div>Short bio</div>
         </div>
 

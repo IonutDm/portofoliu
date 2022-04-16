@@ -10,7 +10,8 @@ export class HomeComponent implements OnInit {
   showText1: boolean = false;
   showText2: boolean = false;
   showText3: boolean = false;
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit(): void {
   }
@@ -23,5 +24,7 @@ export class HomeComponent implements OnInit {
   toggleTitleText3():void {
     this.showText3=!this.showText3
   }
-  
+  showTitles():boolean{
+    return this.showText1|| this.showText2 || this.showText3
+  }
 }
