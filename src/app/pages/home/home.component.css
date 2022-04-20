@@ -6,19 +6,13 @@
     font-size: 150px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-flow: column;
-    gap: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-   
 }
-
 
 .content {
     font-size: medium;
-    border:2px solid black
-
+    border: 2px solid black;
 }
 
 .mainTitle div {
@@ -26,17 +20,34 @@
     text-align: center;
     justify-content: center;
     text-shadow: 2px 2px 0px #efa032;
-    
+    margin: 20px;
 }
 
-.mainTitle div:hover{
+.mainTitle div:hover {
     text-shadow: 5px 5px 0px red;
-    
 }
 
 
 @media only screen and (min-width: 320px) and (max-width:480px) {
     .container {
-      font-size: 70px;
+        font-size: 40px;
+        justify-content: center;
     }
-  }
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    .container {
+        font-size: 60px;
+        width: auto;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width:2000px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80px;
+    }
+}
